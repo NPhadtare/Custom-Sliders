@@ -13,6 +13,12 @@
 		C34FF2D626BA9AA0005B1C6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34FF2C126BA9A9E005B1C6D /* ContentView.swift */; };
 		C34FF2D726BA9AA0005B1C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34FF2C226BA9AA0005B1C6D /* Assets.xcassets */; };
 		C34FF2D826BA9AA0005B1C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34FF2C226BA9AA0005B1C6D /* Assets.xcassets */; };
+		C34FF2E426BA9C07005B1C6D /* NPLikertSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34FF2E326BA9C07005B1C6D /* NPLikertSlider.swift */; };
+		C34FF2E526BA9C07005B1C6D /* NPLikertSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34FF2E326BA9C07005B1C6D /* NPLikertSlider.swift */; };
+		C35810BD26BBF6F7009C4A98 /* NpMoodScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35810BC26BBF6F7009C4A98 /* NpMoodScale.swift */; };
+		C35810BE26BBF6F7009C4A98 /* NpMoodScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35810BC26BBF6F7009C4A98 /* NpMoodScale.swift */; };
+		C35810C226BBFCF6009C4A98 /* ColoredSliderGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35810C126BBFCF6009C4A98 /* ColoredSliderGraph.swift */; };
+		C35810C326BBFCF6009C4A98 /* ColoredSliderGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35810C126BBFCF6009C4A98 /* ColoredSliderGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,9 @@
 		C34FF2CF26BA9AA0005B1C6D /* DemoLikertScaleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLikertScaleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34FF2D126BA9AA0005B1C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C34FF2D226BA9AA0005B1C6D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C34FF2E326BA9C07005B1C6D /* NPLikertSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPLikertSlider.swift; sourceTree = "<group>"; };
+		C35810BC26BBF6F7009C4A98 /* NpMoodScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NpMoodScale.swift; sourceTree = "<group>"; };
+		C35810C126BBFCF6009C4A98 /* ColoredSliderGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoredSliderGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,9 @@
 		C34FF2BF26BA9A9E005B1C6D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C35810C126BBFCF6009C4A98 /* ColoredSliderGraph.swift */,
+				C35810BC26BBF6F7009C4A98 /* NpMoodScale.swift */,
+				C34FF2E326BA9C07005B1C6D /* NPLikertSlider.swift */,
 				C34FF2C026BA9A9E005B1C6D /* DemoLikertScaleAppApp.swift */,
 				C34FF2C126BA9A9E005B1C6D /* ContentView.swift */,
 				C34FF2C226BA9AA0005B1C6D /* Assets.xcassets */,
@@ -188,7 +200,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C34FF2D526BA9AA0005B1C6D /* ContentView.swift in Sources */,
+				C35810BD26BBF6F7009C4A98 /* NpMoodScale.swift in Sources */,
+				C35810C226BBFCF6009C4A98 /* ColoredSliderGraph.swift in Sources */,
 				C34FF2D326BA9AA0005B1C6D /* DemoLikertScaleAppApp.swift in Sources */,
+				C34FF2E426BA9C07005B1C6D /* NPLikertSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +212,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C34FF2D626BA9AA0005B1C6D /* ContentView.swift in Sources */,
+				C35810BE26BBF6F7009C4A98 /* NpMoodScale.swift in Sources */,
+				C35810C326BBFCF6009C4A98 /* ColoredSliderGraph.swift in Sources */,
 				C34FF2D426BA9AA0005B1C6D /* DemoLikertScaleAppApp.swift in Sources */,
+				C34FF2E526BA9C07005B1C6D /* NPLikertSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
